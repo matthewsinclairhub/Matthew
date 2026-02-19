@@ -66,9 +66,11 @@ const Navigation = ({ scrolled }) => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <TreeDeciduous className="h-8 w-8 text-[#F97316]" />
-              <span className="text-2xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: 'Barlow Condensed, sans-serif' }}>
-                TimberGuard
+              <div className="w-10 h-10 bg-[#F97316] rounded-full flex items-center justify-center">
+                <TreeDeciduous className="h-6 w-6 text-white" />
+              </div>
+              <span className="text-xl font-bold text-white uppercase tracking-wider" style={{ fontFamily: 'Barlow Condensed, sans-serif' }}>
+                Illawarra Tree Removal
               </span>
             </div>
 
@@ -815,13 +817,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <TreeDeciduous className="h-10 w-10 text-[#F97316]" />
+              <div className="w-12 h-12 bg-[#F97316] rounded-full flex items-center justify-center">
+                <TreeDeciduous className="h-7 w-7 text-white" />
+              </div>
               <span className="text-3xl font-bold uppercase tracking-wider" style={{ fontFamily: 'Barlow Condensed, sans-serif' }}>
-                TimberGuard
+                Illawarra Tree Removal
               </span>
             </div>
             <p className="text-white/70 max-w-sm mb-6">
-              Professional tree services you can trust. Over 25 years of experience serving the Pacific Northwest.
+              Professional tree services you can trust. Proudly serving the Illawarra region with expert tree care.
             </p>
             <div className="flex items-center gap-4">
               <Shield className="h-5 w-5 text-[#F97316]" />
