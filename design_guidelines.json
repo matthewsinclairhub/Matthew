@@ -1,0 +1,154 @@
+{
+  "design_system": {
+    "identity": {
+      "name": "TimberGuard",
+      "archetype": "Organic & Earthy + Performance Pro",
+      "tone": "Professional, Reliable, Safe, Natural",
+      "mission": "To provide top-tier tree services with a focus on safety and environmental stewardship."
+    },
+    "typography": {
+      "font_family": {
+        "headings": "Barlow Condensed, sans-serif",
+        "body": "Manrope, sans-serif",
+        "accent": "Caveat, cursive"
+      },
+      "weights": {
+        "headings": "700, 800",
+        "body": "400, 500, 600"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-7xl tracking-tight font-bold uppercase",
+        "h2": "text-4xl md:text-5xl tracking-tight font-bold uppercase",
+        "h3": "text-2xl md:text-3xl font-semibold",
+        "body": "text-base md:text-lg leading-relaxed",
+        "caption": "text-sm tracking-widest uppercase font-semibold text-muted-foreground"
+      },
+      "imports": [
+        "@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&family=Caveat:wght@400;700&display=swap');"
+      ]
+    },
+    "colors": {
+      "palette": {
+        "primary": {
+          "DEFAULT": "#1A3C34",
+          "foreground": "#FFFFFF",
+          "description": "Deep Forest Green - Trust, Nature, Stability"
+        },
+        "secondary": {
+          "DEFAULT": "#8D6E63",
+          "foreground": "#FFFFFF",
+          "description": "Earthy Clay - Grounding, Soil, Wood"
+        },
+        "accent": {
+          "DEFAULT": "#F97316",
+          "foreground": "#FFFFFF",
+          "description": "Safety Orange - High Visibility, Action, Warning"
+        },
+        "background": {
+          "DEFAULT": "#F5F5F0",
+          "dark": "#0F1210",
+          "description": "Warm Sand/Bone - Organic Background"
+        },
+        "muted": {
+          "DEFAULT": "#E5E5E0",
+          "foreground": "#5A5A55"
+        }
+      },
+      "gradients": {
+        "hero": "linear-gradient(to bottom, rgba(26, 60, 52, 0.8), rgba(26, 60, 52, 0.4))",
+        "card": "linear-gradient(135deg, #ffffff 0%, #f5f5f0 100%)"
+      }
+    },
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_padding": "py-20 md:py-32",
+      "element_gap": "gap-8 md:gap-12"
+    },
+    "visual_enhancers": {
+      "radius": "rounded-none md:rounded-sm",
+      "shadows": {
+        "card": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+        "hover": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+      },
+      "borders": "border border-border/40",
+      "textures": "bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')] opacity-5"
+    },
+    "layout_strategies": {
+      "hero": "Full-screen immersive image with 'Glassmorphism' quote form overlay. Text left-aligned, form right-aligned or bottom-bar.",
+      "services": "Bento Grid (Mode A: Tetris). Mix of large images, icon blocks, and text descriptions.",
+      "testimonials": "Editorial Ribbon. Horizontal scroll with large serif quotes.",
+      "gallery": "Masonry layout with zoom-on-hover effects."
+    },
+    "components": {
+      "buttons": {
+        "primary": "bg-accent text-white hover:bg-accent/90 rounded-sm uppercase tracking-wider font-bold px-8 py-4 transition-all hover:-translate-y-1 shadow-lg",
+        "secondary": "bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-white rounded-sm uppercase tracking-wider font-bold px-8 py-4 transition-all"
+      },
+      "cards": {
+        "service": "bg-white p-8 border-l-4 border-accent hover:border-l-8 transition-all duration-300 shadow-sm hover:shadow-xl group",
+        "feature": "bg-primary/5 p-6 rounded-sm border border-primary/10"
+      },
+      "forms": {
+        "input": "bg-white border-gray-200 focus:border-accent focus:ring-accent rounded-sm h-12",
+        "label": "text-sm font-bold uppercase tracking-wide text-gray-600 mb-2 block"
+      }
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1765064520245-2baac5e82689?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwxfHxhcmJvcmlzdCUyMHRyZWUlMjBjbGltYmVyJTIwc2FmZXR5JTIwZ2VhcnxlbnwwfHx8fDE3NzE0ODI5OTR8MA&ixlib=rb-4.1.0&q=85",
+      "services": {
+        "removal": "https://images.unsplash.com/photo-1669065054992-3151b15aab08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwzfHxhcmJvcmlzdCUyMHRyZWUlMjBjbGltYmVyJTIwc2FmZXR5JTIwZ2VhcnxlbnwwfHx8fDE3NzE0ODI5OTR8MA&ixlib=rb-4.1.0&q=85",
+        "trimming": "https://images.unsplash.com/photo-1765064519883-651c506ec70d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHw0fHxhcmJvcmlzdCUyMHRyZWUlMjBjbGltYmVyJTIwc2FmZXR5JTIwZ2VhcnxlbnwwfHx8fDE3NzE0ODI5OTR8MA&ixlib=rb-4.1.0&q=85",
+        "stump_grinding": "https://images.unsplash.com/photo-1617143520628-86934f404d06?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHx0cmVlJTIwc3R1bXAlMjBncmluZGluZyUyMG1hY2hpbmUlMjBhY3Rpb258ZW58MHx8fHwxNzcxNDgyOTk4fDA&ixlib=rb-4.1.0&q=85",
+        "land_clearing": "https://images.unsplash.com/photo-1642005581880-3536a680febf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwzfHx0cmVlJTIwc3R1bXAlMjBncmluZGluZyUyMG1hY2hpbmUlMjBhY3Rpb258ZW58MHx8fHwxNzcxNDgyOTk4fDA&ixlib=rb-4.1.0&q=85"
+      },
+      "gallery": [
+        "https://images.unsplash.com/photo-1663697317598-319f0b5ef8b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxiZWF1dGlmdWwlMjBtYW5pY3VyZWQlMjBiYWNreWFyZCUyMGdhcmRlbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NzE0ODMwMDB8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1634316888962-75074307f81c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHxiZWF1dGlmdWwlMjBtYW5pY3VyZWQlMjBiYWNreWFyZCUyMGdhcmRlbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NzE0ODMwMDB8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1596481768453-8befafc2d7ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxiZWF1dGlmdWwlMjBtYW5pY3VyZWQlMjBiYWNreWFyZCUyMGdhcmRlbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NzE0ODMwMDB8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1721217721953-14f4a916e018?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHw0fHxiZWF1dGlmdWwlMjBtYW5pY3VyZWQlMjBiYWNreWFyZCUyMGdhcmRlbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NzE0ODMwMDB8MA&ixlib=rb-4.1.0&q=85"
+      ],
+      "textures": [
+        "https://images.unsplash.com/photo-1719252636955-c72d3c0b1d25?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwxfHxwaWxlJTIwb2YlMjBjdXQlMjB3b29kJTIwbG9ncyUyMHRleHR1cmV8ZW58MHx8fHwxNzcxNDgzMDAzfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1767206424731-781dba2f5302?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxwaWxlJTIwb2YlMjBjdXQlMjB3b29kJTIwbG9ncyUyMHRleHR1cmV8ZW58MHx8fHwxNzcxNDgzMDAzfDA&ixlib=rb-4.1.0&q=85"
+      ]
+    },
+    "icons": "lucide-react"
+  },
+  "instructions_to_main_agent": {
+    "general": "You are building a high-end Tree Service website. Do not make it look like a generic template. Use the 'Bento' grid for services and 'Editorial' style for testimonials. Focus on the 'Safety' and 'Professionalism' aspects.",
+    "layout_rules": [
+      "Use 'Barlow Condensed' for all headings. It gives a strong, industrial feel.",
+      "Use 'Manrope' for body text for high legibility.",
+      "Use 'Safety Orange' (#F97316) sparingly but effectively for CTAs and important alerts.",
+      "Ensure all images have a subtle overlay or filter to match the 'Earthy' tone if they are too bright.",
+      "The 'Get a Quote' form should be prominent and accessible from the Hero section."
+    ],
+    "component_overrides": {
+      "Button": "Use the 'primary' button style defined in design_system.components.buttons.primary.",
+      "Card": "Use the 'service' card style defined in design_system.components.cards.service.",
+      "Input": "Use the 'input' style defined in design_system.components.forms.input."
+    }
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ]
+}
