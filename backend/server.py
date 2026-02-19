@@ -145,7 +145,7 @@ async def send_notification_email(subject: str, html_content: str):
 
 @api_router.get("/")
 async def root():
-    return {"message": "TimberGuard Tree Services API"}
+    return {"message": "Illawarra Tree Removal API"}
 
 # Quote Request Routes
 @api_router.post("/quotes", response_model=QuoteRequest)
@@ -169,7 +169,7 @@ async def create_quote_request(input: QuoteRequestCreate):
             <p><strong>Address:</strong> {quote_obj.address}</p>
             <p><strong>Message:</strong> {quote_obj.message or 'N/A'}</p>
             <hr style="border: none; border-top: 1px solid #e5e5e0; margin: 20px 0;">
-            <p style="color: #5A5A55; font-size: 12px;">TimberGuard Tree Services - Lead Notification</p>
+            <p style="color: #5A5A55; font-size: 12px;">Illawarra Tree Removal - Lead Notification</p>
         </div>
     </body>
     </html>

@@ -871,7 +871,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/50 text-sm">
-            © 2024 TimberGuard Tree Services. All rights reserved.
+            © 2024 Illawarra Tree Removal. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-white/50">
             <a href="#" className="hover:text-[#F97316]">Privacy Policy</a>
