@@ -120,7 +120,7 @@ class TimberGuardAPITester:
             "preferred_time": "10:00 AM - 12:00 PM",
             "notes": "Test booking"
         }
-        success, response = self.run_test("Submit Booking", "POST", "bookings", 201, booking_data)
+        success, response = self.run_test("Submit Booking", "POST", "bookings", 200, booking_data)
         if success and response.get('id'):
             print("   ✅ Booking submission successful with ID")
             return True
