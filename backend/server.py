@@ -210,7 +210,7 @@ async def create_booking(input: BookingCreate):
             <p><strong>Preferred Time:</strong> {booking_obj.preferred_time}</p>
             <p><strong>Notes:</strong> {booking_obj.notes or 'N/A'}</p>
             <hr style="border: none; border-top: 1px solid #e5e5e0; margin: 20px 0;">
-            <p style="color: #5A5A55; font-size: 12px;">TimberGuard Tree Services - Booking Notification</p>
+            <p style="color: #5A5A55; font-size: 12px;">Illawarra Tree Removal - Booking Notification</p>
         </div>
     </body>
     </html>
@@ -248,7 +248,7 @@ async def create_contact(input: ContactMessageCreate):
             <p><strong>Subject:</strong> {contact_obj.subject}</p>
             <p><strong>Message:</strong> {contact_obj.message}</p>
             <hr style="border: none; border-top: 1px solid #e5e5e0; margin: 20px 0;">
-            <p style="color: #5A5A55; font-size: 12px;">TimberGuard Tree Services - Contact Notification</p>
+            <p style="color: #5A5A55; font-size: 12px;">Illawarra Tree Removal - Contact Notification</p>
         </div>
     </body>
     </html>
