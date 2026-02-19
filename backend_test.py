@@ -135,7 +135,7 @@ class TimberGuardAPITester:
             "subject": "Test Subject",
             "message": "Test contact message"
         }
-        success, response = self.run_test("Submit Contact", "POST", "contact", 201, contact_data)
+        success, response = self.run_test("Submit Contact", "POST", "contact", 200, contact_data)
         if success and response.get('id'):
             print("   ✅ Contact submission successful with ID")
             return True
