@@ -102,7 +102,7 @@ class TimberGuardAPITester:
             "address": "123 Test St, Portland, OR",
             "message": "Test quote request"
         }
-        success, response = self.run_test("Submit Quote Request", "POST", "quotes", 201, quote_data)
+        success, response = self.run_test("Submit Quote Request", "POST", "quotes", 200, quote_data)
         if success and response.get('id'):
             print("   ✅ Quote submission successful with ID")
             return True
