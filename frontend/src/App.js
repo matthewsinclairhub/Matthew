@@ -701,7 +701,7 @@ const ContactSection = () => {
                   <Mail className="h-5 w-5 text-[#F97316]" />
                 </div>
                 <div>
-                  <p className="font-bold text-lg">info@timberguard.com</p>
+                  <p className="font-bold text-lg">info@illawarratreeremoval.com.au</p>
                   <p className="text-white/70 text-sm">We respond within 24 hours</p>
                 </div>
               </div>
@@ -711,8 +711,8 @@ const ContactSection = () => {
                   <MapPin className="h-5 w-5 text-[#F97316]" />
                 </div>
                 <div>
-                  <p className="font-bold text-lg">123 Forest Lane</p>
-                  <p className="text-white/70 text-sm">Portland, OR 97201</p>
+                  <p className="font-bold text-lg">Illawarra Region</p>
+                  <p className="text-white/70 text-sm">NSW, Australia</p>
                 </div>
               </div>
 
@@ -859,11 +859,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-[#F97316]" />
-                info@timberguard.com
+                info@illawarratreeremoval.com.au
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-[#F97316]" />
-                Portland, OR 97201
+                Illawarra Region, NSW
               </li>
             </ul>
           </div>
