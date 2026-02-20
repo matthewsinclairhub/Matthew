@@ -95,12 +95,12 @@ class TimberGuardAPITester:
     def test_quote_submission(self):
         """Test quote request submission"""
         quote_data = {
-            "name": "Test User",
-            "email": "test@example.com",
-            "phone": "(555) 123-4567",
-            "service": "tree-removal",
-            "address": "123 Test St, Portland, OR",
-            "message": "Test quote request"
+            "name": "",
+            "email": "",
+            "phone": "",
+            "service": "",
+            "address": "",
+            "message": ""
         }
         success, response = self.run_test("Submit Quote Request", "POST", "quotes", 200, quote_data)
         if success and response.get('id'):
@@ -173,7 +173,7 @@ class TimberGuardAPITester:
             return False
 
 def main():
-    print("🌲 TimberGuard Tree Services API Testing")
+    print("🌲 Illawarra Tree Removal API Testing")
     print("=" * 50)
     
     tester = TimberGuardAPITester()
