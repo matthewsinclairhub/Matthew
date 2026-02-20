@@ -265,43 +265,43 @@ async def get_testimonials():
         Testimonial(
             id="1",
             name="Sarah Mitchell",
-            location="Portland, OR",
+            location="Shellharbour, NSW",
             rating=5,
-            review="TimberGuard removed a massive oak that was threatening our home. Their crew was professional, efficient, and left our yard spotless. Highly recommend!",
+            review="Illwarra Tree Removal removed a massive oak that was threatening our home. Their crew was professional, efficient, and left our yard spotless. Highly recommend!",
             service="Tree Removal",
-            date="December 2024"
+            date="December 2025"
         ),
         Testimonial(
             id="2",
             name="James Rodriguez",
-            location="Seattle, WA",
+            location="Oak Flats, NSW",
             rating=5,
             review="After the storm damaged several trees on our property, TimberGuard was there within hours. Their emergency response team saved us from further damage.",
             service="Emergency Services",
-            date="November 2024"
+            date="June 2025"
         ),
         Testimonial(
             id="3",
             name="Emily Chen",
-            location="Vancouver, WA",
+            location="Farmborough Heights, NSW",
             rating=5,
             review="Professional stump grinding service! They removed five old stumps and now our backyard looks incredible. Fair pricing and excellent work.",
             service="Stump Grinding",
-            date="October 2024"
+            date="October 2025"
         ),
         Testimonial(
             id="4",
             name="Michael Thompson",
-            location="Eugene, OR",
+            location="Thirroul, NSW",
             rating=5,
             review="Regular tree trimming from TimberGuard keeps our property looking pristine. Their arborists really know their craft.",
             service="Tree Trimming",
-            date="September 2024"
+            date="September 2025"
         ),
         Testimonial(
             id="5",
             name="Lisa Anderson",
-            location="Tacoma, WA",
+            location="Warilla, NSW",
             rating=5,
             review="They cleared 2 acres for our new construction project. Professional, on-time, and within budget. Will use again!",
             service="Land Clearing",
